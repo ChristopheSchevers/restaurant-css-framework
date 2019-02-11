@@ -8,7 +8,14 @@ body, .container-fluid {
 
 /* Jumbotron */
 
-
+.jumbotron {
+    background-image: url('./pictures/jumbotron.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+}
 
 
 /* Homepage */
