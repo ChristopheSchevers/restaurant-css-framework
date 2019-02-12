@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Home Page</title>
+    <title>Foto pagina</title>
 </head>
 <body>
     <div class="jumbotron jumbotron-fluid mb-0 align-items-center">
@@ -15,13 +15,13 @@
     </div>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark text-center justify-content-around">
         <ul class="navbar-nav nav-pills">
-            <li class="nav-item px-2 active">
+            <li class="nav-item px-2">
                 <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item px-2">
                 <a class="nav-link" href="#">Menu-kaart</a>
             </li>
-            <li class="nav-item px-2">
+            <li class="nav-item px-2 active">
                 <a class="nav-link" href="#">Foto's</a>
             </li>
             <li class="nav-item px-2">
@@ -33,29 +33,27 @@
         </ul>
     </nav>
     <div class="container-fluid bg-dark text-center overflow-hidden">
-        <div class="row mb-4 ml-3 mr-3">
-            <div class="col-md-6 mb-4">
-                <div class="card">
-                    <div class="card-body bg-light">
-                        <h3 class="card-title">What's new?</h3>
-                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel nemo vitae, odio veritatis ea tempore velit exercitationem voluptates sit illo magni, at fugiat. Architecto tempore, id totam sit non, temporibus ducimus, dolore at tenetur eligendi dignissimos nostrum. Laboriosam, quo ut.</p>
+        <div class="gallery mx-3 mt-3 mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 gallery-item">
+                        <img src="./pictures/pizza.jpeg" class="img-responsive img-gallery" alt="Picture of pizza with tomato and spinach">
                     </div>
-                </div>
-            </div>
-            <div class="col-md-6 mb-4">
-                <div class="card">
-                    <div class="card-body bg-light">
-                        <h3 class="card-title">Events</h3>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, hic.</li>
-                            <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                            <li class="list-group-item">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-                            <li class="list-group-item">Lorem ipsum dolor sit amet consectetur.</li>
-                        </ul>
+                    <div class="col-4 gallery-item">
+                        <img src="./pictures/sandwich.jpeg" class="img-responsive img-gallery" alt="Picture of sandwich filled with vegetables">
+                    </div>
+                    <div class="col-4 gallery-item">
+                        <img src="./pictures/steak.jpeg" class="img-responsive img-gallery" alt="Picture of juicy steak with vegetables">
                     </div>
                 </div>
             </div>
         </div>
+        <ul class="pagination m-5 justify-content-center">
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item active"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+        </ul>
         <div class="col-12 text-center text-white-50">
             &copy; 2019 BCME
         </div>

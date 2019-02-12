@@ -7,6 +7,10 @@ body, .container-fluid {
 }
 
 h1 {
+    color: #556B2F;
+}
+
+h1, h3 {
     font-family: 'Pacifico', Arial, Helvetica, cursive;
 }
 
@@ -24,5 +28,17 @@ h1 {
 }
 
 
-/* Homepage */
+/* Menu page */
 
+li img {
+    height: 100%;
+    width: 100px;
+}
+
+
+/* Picture page */
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
