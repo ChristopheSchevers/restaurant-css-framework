@@ -43,6 +43,25 @@ li img {
     height: auto;
 }
 
+
+/* Restaurants page */
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
 /* Contact page */
 
 .inputfield {
