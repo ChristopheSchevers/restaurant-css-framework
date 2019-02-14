@@ -31,7 +31,7 @@ h1, h3 {
 /* Menu page */
 
 li img {
-    height: 100%;
+    height: auto;
     width: 100px;
 }
 
